@@ -1,0 +1,355 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url(back.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  height: 80vh;
+  position: relative;
+}
+
+.main .box {
+  height: 80vh;
+  width: 100%;
+  /* opacity: 0.55; */
+  position: relative;
+  top: -930px;
+  left: -50px;
+  background-color: black;
+}
+
+.text {
+  font-size: 2rem;
+  color: red;
+  /* margin: 10px; */
+  padding: 20px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 87vw;
+  margin: auto;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  /* padding: 700px; */
+  /* margin-bottom:1000px; */
+}
+
+/* .sagar {
+    height: 3px;
+    margin: -700px;
+    background-color: rgb(51, 219, 51);
+
+
+} */
+
+.btn {
+  padding: 3px 8px;
+  font-weight: bold;
+  background-color: wheat;
+}
+
+.English {
+  font-size: 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+  margin: 20px;
+}
+
+.Sign {
+  font-size: 1.5rem;
+  background-color: red;
+  color: wheat;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+  gap: 10px;
+}
+
+.box1 {
+  height: 30px;
+  width: 30px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+}
+
+.box:hover {
+  background-color: rgb(172, 90, 104);
+  transform: scale(1.1);
+  position: relative;
+}
+
+.shop-section {
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  justify-content: space-between;
+  border-color: pink;
+}
+
+.box {
+  /* border: solid black 2px;*/
+  height: 130px;
+  width: 130 px;
+  padding: 40px;
+  margin: 50px;
+  border-radius: 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+.box1 {
+  background-color: rgb(205, 76, 76);
+  background-image: url(box1.jpg);
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  font-weight: bold;
+}
+
+.box2 {
+  background-color: rgb(205, 76, 76);
+  background-image: url(box2.jpg);
+  height: 100px;
+  width: 110px;
+  background-size: cover;
+  font-weight: bold;
+}
+
+.box3 {
+  background-color: rgb(205, 76, 76);
+  background-image: url(box3.jpg);
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  font-weight: bold;
+}
+
+.box4 {
+  background-color: rgb(205, 76, 76);
+  background-image: url(box4.jpg);
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  font-weight: bold;
+}
+
+/* .box5 {
+    background-color: aqua;
+    background-image: url(box5.jpg);
+    height: 100px;
+    width: 100px;
+    background-size: cover;} */
+h1 {
+  color: wheat;
+  position: relative;
+  color: red;
+}
+
+/* section 2.... */
+.shop-section {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  justify-content: space-evenly;
+  border-color: pink;
+}
+
+.box {
+  /* border: solid black 2px; */
+  height: 130px;
+  width: 130 px;
+  padding: 40px;
+  margin: 50px;
+  border-radius: 25px;
+  /* position: relative; */
+}
+
+.box1 {
+  background-color: rgb(97, 97, 228);
+  background-image: url(box1.jpg);
+  height: 110px;
+  width: 100px;
+  background-size: cover;
+  font-weight: bold;
+}
+
+.box2 {
+  background-color: rgb(97, 97, 228);
+  background-image: url(box2.jpg);
+  height: 100px;
+  width: 110px;
+  background-size: cover;
+  font-weight: bold;
+}
+
+.box3 {
+  background-color: rgb(97, 97, 228);
+  background-image: url(box3.jpg);
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  font-weight: bold;
+}
+.box4 {
+  background-color: rgb(97, 97, 228);
+  background-image: url(box4.jpg);
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  font-weight: bold;
+}
+
+/* .box5 {
+    background-color: aqua;
+    background-image: url(box5.jpg);
+    height: 100px;
+    width: 100px;
+    background-size: cover;} */
+h1 {
+  color: wheat;
+  position: relative;
+  color: red;
+}
+
+/* this is a last page  */
+.last_page {
+  display: flex;
+  height: 50px;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(103, 76, 76);
+  margin: 70px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 300px;
+}
+
+.last_page:hover {
+  background-color: rgb(172, 160, 160);
+}
+
+.laddi {
+  font-weight: lighter;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+}
+
+.and {
+  height: 500px;
+  width: 500px;
+}
+
+.input_l {
+  height: 40px;
+  width: 60%;
+  background-color: rgb(175, 175, 215);
+  margin: 30px;
+  text-align: center;
+  justify-content: center;
+  font-weight: lighter;
+}
+
+input {
+  height: 40px;
+  width: 300px;
+  font-weight: lighter;
+  border: 2px solid red;
+}
+
+.get:hover {
+  background-color: black;
+}
+
+.get {
+  height: 26px;
+  width: 45px;
+  background-color: red;
+  margin: 324px;
+  padding: 10px;
+  margin-top: -45px;
+  border-radius: 3px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+
+.gip {
+  justify-content: center;
+  text-align: center;
+}
+
+foot-penal1 {
+  background-color: #37475a;
+  color: white;
+  height: 70px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  margin: 145px;
+}
+
+.fotur-penal2 {
+  /* background-color: #222f3d;    */
+  color: white;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -237px;
+}
+
+lu {
+  margin-top: 30px;
+}
+
+ul a {
+  display: block;
+  font-size: 0.85rem;
+  color: #dddddd;
+  margin: 10px;
+}
+
+p {
+  font-weight: bold;
+}
+
+.adventures {
+  color: white;
+}
